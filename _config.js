@@ -1,5 +1,5 @@
 /*
- * lamp-status@thomasmorice.fr
+ * web-dev-panel@mediadoneright.com
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  *
  */
@@ -8,7 +8,7 @@
 // used as identifier when adding to status area
 const GLib = imports.gi.GLib;
 
-const EXTENSION_NAME = 'Lamp Status';
+const EXTENSION_NAME = 'Web Dev Panel';
 
 
 // keys for access to gsettings
