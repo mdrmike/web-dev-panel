@@ -1,0 +1,53 @@
+panel-label {
+  padding: .4em 1.75em;
+  font-size: 10.5pt;
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.helloworld-label {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(10,10,10,0.7);
+  border-radius: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.lamp-no-services {
+    background-image: url("img/lamp_no_services.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+.lamp-apache-services {
+    background-image: url("img/lamp_apache_services.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+.lamp-mysql-services {
+    background-image: url("img/lamp_mysql_services.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+
+.lamp-all-services {
+    background-image: url("img/lamp_all_services.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+.lamp-loading {
+    background-image: url("img/lamp_loading.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
