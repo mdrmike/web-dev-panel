@@ -11,11 +11,11 @@ A [Gnome Shell Extension](https://extensions.gnome.org/) to control Web and Data
 **Note:**  These settings can be manually changed in the file `~/.local/share/gnome-shell/extensions/web-dev-panel@mediadoneright.com/__config.js`
 
 ## Future Development
-I'd like to combine efforts with the original author.  Based on a comment to add Nginx support and lack of response (and no link to a public repo or issue queue) I created this project.  
+I'd like to combine efforts with the original author.  However, [Based on a comment](https://extensions.gnome.org/extension/990/lamp-status/#comments) to add Nginx support and the lack of response, plus no link to a public source repository or issue queue, I created this project.
 
-My goal is to either:
+My current goal for the project is to either:
 
-1. Allow user to change default configuration using a GUI, or
+1. Allow users to change default configuration using a GUI, or
 2. Automatically configure setup based on system services
 
 **Pull Requests** are encouraged and appreciated!
