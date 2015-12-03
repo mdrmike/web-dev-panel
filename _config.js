@@ -17,6 +17,6 @@ const GSETTINGS_HIDDEN = 'hidden';
 const GSETTINGS_ISINDICATORSHOWN = 'is-indicator-shown';
 
 // Services
-const SERVICENAME_APACHE    = 'httpd';
-const SERVICENAME_MYSQL     = 'mysqld';
+const SERVICENAME_WWWSRV    = 'nginx';
+const SERVICENAME_DBSRV     = 'mysql';
 const PKEXEC_PATH           =  GLib.find_program_in_path('pkexec');
