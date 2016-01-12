@@ -215,9 +215,9 @@ function tryActivateApacheService() {
         if (!isPkExecThreadActive()){
             // PkExec is open ! don't do anything stupid
             if (isApacheActive()) {
-                Main.notify("Web Server is now on");
+                Main.notify("Web server is now on");
             } else {
-                Main.notify("Web Server couldn't be activated");
+                Main.notify("Web server couldn't be activated");
             }
             // No need to go to that loop again
             refreshUI();
@@ -263,9 +263,9 @@ function tryActivateMysqlService() {
         if (!isPkExecThreadActive()){
             // PkExec is closed open ! don't do anything stupid
             if (isMysqlActive()) {
-                Main.notify("Mysql is now on");
+                Main.notify("MySQL server is now on");
             } else {
-                Main.notify("We couldn't managed to activate MySQL");
+                Main.notify("MySQL server couldn't be activated");
             }
             // No need to go to that loop again
             refreshUI();
@@ -289,7 +289,7 @@ function tryDesactivateMysqlService() {
             if (!isMysqlActive()) {
                 Main.notify("Mysql is now off");
             } else {
-                Main.notify("We couldn't managed to desactivate MySQL");
+                Main.notify("MySQL couldn't be deactivated");
             }
             // No need to go to that loop again
             refreshUI();
