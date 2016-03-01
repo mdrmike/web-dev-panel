@@ -15,8 +15,22 @@ panel-label {
   padding: 50px;
 }
 
-.lamp-no-services {
-    background-image: url("img/lamp_no_services.png");
+.lamp-all-services {
+    background-image: url("img/lamp_all_services.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+.lamp-apache-fpm {
+    background-image: url("img/lamp_apache_fpm.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+.lamp-apache-mysql {
+    background-image: url("img/lamp_apache_mysql.png");
     background-size: 16px;
     height: 16px;
     width: 20px;
@@ -29,6 +43,20 @@ panel-label {
     width: 20px;
 }
 
+.lamp-fpm-mysql {
+    background-image: url("img/lamp_fpm_mysql.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
+.lamp-fpm-services {
+    background-image: url("img/lamp_fpm_services.png");
+    background-size: 16px;
+    height: 16px;
+    width: 20px;
+}
+
 .lamp-mysql-services {
     background-image: url("img/lamp_mysql_services.png");
     background-size: 16px;
@@ -36,9 +64,8 @@ panel-label {
     width: 20px;
 }
 
-
-.lamp-all-services {
-    background-image: url("img/lamp_all_services.png");
+.lamp-no-services {
+    background-image: url("img/lamp_no_services.png");
     background-size: 16px;
     height: 16px;
     width: 20px;
@@ -50,4 +77,3 @@ panel-label {
     height: 16px;
     width: 20px;
 }
-

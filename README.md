@@ -7,6 +7,7 @@ A [Gnome Shell Extension](https://extensions.gnome.org/) to control Web and Data
 ## Configuration Defaults
 * Use `nginx` (instead of `apache`)
 * Support Ubuntu systemd service names (`mysql` instead of `mysqld`)
+* Support for PHP5-FPM
 
 **Note:**  These settings can be manually changed in the file `~/.local/share/gnome-shell/extensions/web-dev-panel@mediadoneright.com/__config.js`
 
